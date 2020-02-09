@@ -1,0 +1,26 @@
+//SEMPRE EXECUTAR O ARQUIVO COM NODEMON         
+//Importação do Modulo Express 
+//p/ intalação npm install express --save
+//Usar const por questão de segurança e evitar dores de cabeça
+//Conexao c/ banco
+//Instalação do sequelize npm install --save sequelize 
+//2ª passo npm install --save mysql2
+//p/instalção npm install --save express-handlebars
+
+
+//conexão com o bd
+
+// //Teste de conexao com o banco
+// sequelize.authenticate().then(function(){
+//     console.log('conectado com sucesso')
+// }).catch(function(erro){
+//     console.log("Falha ao se conectar " + erro);
+    
+// })
+
+
+// app.get("/ola/:nome/:idade" , function(req , res){
+//     res.send("<h1> Ola " + req.params.nome + "</h1>"+ 
+//     "<h2> Sua idade:"+req.params.idade+"</h2>")
+//     //Não pode enviar mais de um send na rota
+// })

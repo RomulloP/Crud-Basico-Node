@@ -1,0 +1,16 @@
+<h1>COEEE</h1>
+{{#each posts}}
+    <small>{{dataValues.createdAt}} </small>
+    <h1> {{dataValues.titulo}} </h1>
+    
+    <p> {{dataValues.conteudo}} </p>
+    
+    <a href="/deletar/{{dataValues.id}}">
+        <button type="button" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-trash"></span>
+        </button>
+    </a>
+    <hr>
+
+{{/each}}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
